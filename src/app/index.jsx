@@ -1,4 +1,4 @@
-import { useRouter } from "expo-router";
+import { Link, useRouter } from "expo-router";
 import { useState } from "react";
 import {
   ScrollView,
@@ -57,11 +57,11 @@ I'm gonna make the world a better place! I just need its source code.
 
   function handleIncrement() {
     setCount(count + 1);
-  };
+  }
 
   function handleDecrement() {
     setCount(count - 1);
-  };
+  }
 
   return (
     <>
@@ -78,6 +78,9 @@ I'm gonna make the world a better place! I just need its source code.
           >
             <Text style={{ color: "#fff" }}>Decrement</Text>
           </TouchableOpacity>
+          <Link href="/(tabs)/home">
+            <Text>Go home </Text>
+          </Link>
         </View>
       </ScrollView>
     </>
