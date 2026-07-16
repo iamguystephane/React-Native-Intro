@@ -79,7 +79,7 @@ I'm gonna make the world a better place! I just need its source code.
             <Text style={{ color: "#fff" }}>Decrement</Text>
           </TouchableOpacity>
           <Link href="/(tabs)/home">
-            <Text>home </Text>
+            <Text>hgkghjk </Text>
           </Link>
         </View>
       </ScrollView>
