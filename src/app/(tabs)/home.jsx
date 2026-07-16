@@ -4,7 +4,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Home() {
   return (
     <SafeAreaView>
-      <Text> Home Sweet Home </Text>
+      <Text> Home Back Home </Text>
     </SafeAreaView>
   );
 }
